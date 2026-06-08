@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Run on VPS:
-  cd /home/polybot/polymarket-bot
+  cd .
   python3 vps_full_analysis.py
 
 Reads market_history.jsonl + market_recap_history.jsonl

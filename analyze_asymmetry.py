@@ -79,10 +79,10 @@ def load_markets(path):
         print("  - market_history.jsonl       (full, with raw ticks)")
         print()
         print("On your VPS, look for individual replay_*.json files instead:")
-        print("  $ ls /home/polybot/polymarket-bot/replays/replay_btc-updown-5m-*.json")
+        print("  $ ls ./replays/replay_btc-updown-5m-*.json")
         print()
         print("Then run:")
-        print("  $ python3 analyze_asymmetry.py /home/polybot/polymarket-bot/replays/")
+        print("  $ python3 analyze_asymmetry.py ./replays/")
         print()
         sys.exit(1)
     
@@ -267,8 +267,8 @@ def main():
         print(f"Usage: {sys.argv[0]} <jsonl_file_or_replay_dir>")
         print()
         print("Examples:")
-        print(f"  {sys.argv[0]} /home/polybot/polymarket-bot/market_history.jsonl")
-        print(f"  {sys.argv[0]} /home/polybot/polymarket-bot/replays/")
+        print(f"  {sys.argv[0]} ./market_history.jsonl")
+        print(f"  {sys.argv[0]} ./replays/")
         sys.exit(1)
     
     path = sys.argv[1]

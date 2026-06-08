@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Run on VPS:
-  cd /home/polybot/polymarket-bot
+  cd .
   python3 vps_feature_extraction.py
 """
 import json, statistics, os
