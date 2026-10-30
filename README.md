@@ -46,3 +46,8 @@ Input artifacts are not committed (`.json`/`.jsonl`/`.csv`/`.log` are gitignored
 - `market_snapshots.jsonl` / `market_snapshots_v2.jsonl`: bucketed snapshots.
 - `replay_*.json`: per-market replays (alternative input to `analyze_asymmetry.py`).
 - `race_test_btc-updown-5m-*.log`: live bot run logs (for `flipmed_feature_search.py`).
+
+## Feedback
+
+Suggestions, improvements, or something not working? Please
+[open an issue](https://github.com/needmoneyforhoes/feature-extraction-toolkit/issues/new). Pull requests are welcome too.
